@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.hero-element {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.delete-button {
+	border: none;
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.selected {
+	background-color: rgba(255, 255, 255, 0.2);
+	list-style: none;
+	border-radius: 5px;
+	border: 1px white solid;
+}
+
+.usual {
+	background-color: rgba(255, 255, 255, 0.2);
+	list-style: none;
+	border-radius: 5px;
+}
+
+.hero-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.badge {
+	padding: 0px 10px;
+}
+
+.add-btn {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 5px 30px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.editfields {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.editfields input {
+	outline: none;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	border: 1px solid transparent;
+	transition: all 0.2s ease;
+}
+
+.editfields input::placeholder {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.editfields input:focus {
+	border: 1px solid white;
+}
+
+.edit-btns {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 5px 10px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.saying {
+	font-size: 12px;
+}

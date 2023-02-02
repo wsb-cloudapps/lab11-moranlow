@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/245fc622-2a99-44dd-84fa-21c7eb1b67d3/AppServices/subscriptions/245fc622-2a99-44dd-84fa-21c7eb1b67d3/resourceGroups/wsb-ewso-79694/providers/Microsoft.Web/sites/matveiProject",
+    "appService.deploySubpath": "."
+}
